@@ -18,6 +18,10 @@ unsigned long now;
 
 boolean Connected = false;
 
+VesselData GetVesselData(){
+    return VData;
+}
+
 boolean GetConnect()
 {
     return Connected;

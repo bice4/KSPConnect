@@ -154,6 +154,8 @@ void SetControlPacketValues(int throttle, int pitch, int yaw);
 boolean KSPBoardReceiveData();
 void KSPBoardSendData(uint8_t *address, uint8_t len);
 
+VesselData GetVesselData();
+
 void KSPSendControlPacket();
 void KSPDataHandler(void (*)());
 
